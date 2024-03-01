@@ -1,0 +1,66 @@
+/* workspace.css */
+
+.workspace-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .menu-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+   
+  }
+  
+  .options-menu {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 1; /* Ensure the menu appears above other elements */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+  }
+  
+  .option {
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .option:hover {
+    background-color: #f2f2f2;
+    
+  }
+  
+  .workspace-heading {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .workspace-textarea {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 80%;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .save-icon,
+  .export-icon {
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,22 @@
+/* note.css */
+
+.note-taking-container {
+    text-align: center; /* Center align the content */
+  }
+  
+  .add-note {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .plus-icon {
+    margin-right: 10px; /* Add spacing between the icon and text */
+  }
+  
+  .create-note-link {
+    color: #000; /* Set the link color */
+    text-decoration: none; /* Remove underline from the link */
+  }
+  

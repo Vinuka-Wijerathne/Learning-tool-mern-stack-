@@ -1,0 +1,217 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  margin: 0;
+ /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;*/
+    font-family: 'VT323', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ /* background: url("images/img.jpg");*/
+}
+
+.container{
+  max-width: 600px;
+  margin:auto;
+  box-sizing: border-box;
+}
+
+h1{
+  margin-top:1 rem;
+  text-align:center;
+  padding-top: 60px;
+}
+
+.top{
+  margin-top: 1rem;
+  display: flex;
+  gap:1rem;
+  justify-content: center;
+
+}
+
+
+/* Your CSS file */
+
+input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #000;
+  border-radius: 8px; /* Rounded corners */
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+input:hover {
+  background-color: rgba(255, 255, 255, 1); /* Fully opaque white background on hover */
+}
+
+input::placeholder {
+  font-style: italic; /* Make the placeholder italic */
+}
+
+
+
+/* Your CSS file */
+
+.add {
+  background-color: #2e2e2e; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px; /* Adjust the font size */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.add:hover {
+  background-color: #000; /* Darker background color on hover */
+}
+
+.todo {
+  position: relative;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Set the background color to black with transparency */
+  color: #fff;
+  padding: 1.5em 3rem;
+  border-radius: 5px;
+  backdrop-filter: blur(10px); /* Adjust the blur value based on your preference */
+  transition: background-color 0.3s ease; /* Add a transition effect for a smooth change */
+}
+
+icons{
+  position: absolute;
+  top: 50%;
+  transform:translate(-50%);
+  right: 20px;
+  display:flex;
+  gap:0.5rem;
+
+}
+icon{
+  cursor:pointer;
+  font-size:20px;
+}
+/* Navigationbar.css */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Black transparent background */
+  color: white;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  font-size: 24px;
+  margin-right: 5px;
+  color: white; /* Icon color */
+}
+
+.dropdown-list {
+  top: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7); /* Black transparent background */
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.nav-item {
+  padding: 10px;
+  cursor: pointer;
+  color: white; /* Set the default color for icons */
+  margin-right: 8px; /* Adjust the space between the icon and text */
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #555;
+}
+/* Additional styles for the newly added icons */
+
+.nav-item:nth-child(1) .nav-icon {
+  color: #3498db; /* Color for the first icon */
+}
+
+.nav-item:nth-child(2) .nav-icon {
+  color: #e74c3c; /* Color for the second icon */
+}
+
+.nav-item:nth-child(3) .nav-icon {
+  color: #2ecc71; /* Color for the third icon */
+}
+
+.nav-item:nth-child(4) .nav-icon {
+  color: #f39c12; /* Color for the fourth icon */
+}
+.nav-icon{
+  padding-right: 10px;
+}
+/* Add these styles to your CSS */
+.checkbox {
+  position: absolute;
+  top: 50%;
+  right: -100px; /* Adjust the right distance as needed */
+  transform: translateY(-50%) scale(1.4); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+.checkbox:hover {
+  transform: translateY(-50%) scale(1.6); /* Adjust the scale factor for the hover state */
+}
+/* Add these styles to your CSS */
+
+.time-and-date {
+  margin-left: auto; /* Move to the right corner */
+  margin-right: 20px; /* Adjust the spacing from the right */
+  font-size: 14px; /* Adjust the font size */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* index.css */
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit; /* or set the color you prefer */
+}
+
+.nav-item a:hover {
+  /* Add hover styles if needed */
+}
+
+
+
+
+
+
+
+
